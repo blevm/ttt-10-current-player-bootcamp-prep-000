@@ -5,6 +5,7 @@ def turn_count(board)
     turn_counter += 1
     puts "#{turn_counter}"
   end
+  end
 end
 
 
