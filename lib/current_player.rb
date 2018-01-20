@@ -9,10 +9,10 @@ def turn_count(board)
 end
 
 
-# def current_player(board)
-#  board.each do |index|
-#    if index = "x" || index = "o"
-#    turn_counter += 1
-#    puts "#{turn_counter}"
-#  end
-#  end
+def current_player(board)
+  turn = turn_count(board)
+    if turn % 2 == 0
+      puts "O"
+    else
+      puts "X"
+    end
