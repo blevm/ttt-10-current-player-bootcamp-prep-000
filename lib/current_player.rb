@@ -12,8 +12,8 @@ end
 def current_player(board)
   turn = turn_count(board)
   if turn.even?
-    puts "O"
+    "O"
   else
-    puts "X"
+    "X"
   end
 end
