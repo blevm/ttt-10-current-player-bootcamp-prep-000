@@ -11,7 +11,7 @@ end
 
 def current_player(board)
   turn = turn_count(board)
-  if turn % 2 == 0
+  if turn.even?
     puts "O"
   else
     puts "X"
